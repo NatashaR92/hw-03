@@ -132,7 +132,7 @@ address {
 }
 /*hero section*/
 .hero-inner {
-  padding: 188px 0 188px;
+  padding: 188px 0;
   background-color: var(--color-title-backgraund);
 }
 .hero-title {

@@ -60,6 +60,7 @@ address {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 32px;
+  border-bottom: 1px solid var(--color-border);
 }
 /*header*/
 .header-inner {
@@ -67,7 +68,6 @@ address {
   justify-content: space-between;
   align-items: center;
   gap: 24px;
-  border-bottom: 1px solid var(--color-border);
 }
 .header-nav {
   display: flex;
@@ -130,6 +130,7 @@ address {
   padding: 188px 0;
   background-color: var(--color-title-backgraund);
 }
+
 .hero-title {
   color: var(--color-text-light);
   font-size: 56px;
@@ -141,11 +142,13 @@ address {
   margin: 0 auto;
   max-width: 496px;
 }
-.hero-actions {
-  display: flex;
-  align-items: center;
-}
+
 .hero-button {
+  align-items: center;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
   color: var(--color-text-light);
   background-color: var(--color-brand);
   cursor: pointer;
@@ -165,6 +168,9 @@ address {
 .advantage-list {
   display: flex;
   gap: 24px;
+}
+.advantage-item {
+  flex-basis: calc((100% - 72px) / 4);
 }
 .advantage-section {
   padding: 120px 0;
@@ -220,11 +226,15 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-title-backgraund);
+  text-align: center;
+  margin-bottom: 8px;
 }
 .ourteam-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 32px;
 }
 /*END our team section*/
 
@@ -233,6 +243,7 @@ address {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+  row-gap: 48px;
 }
 .portfolio-item {
   flex-basis: calc((100% - 48px) / 3);
@@ -291,6 +302,5 @@ address {
 
 .footer {
   background: var(--color-title-backgraund);
-  padding-top: 140px;
-  padding-bottom: 100px;
+  padding: 100px 0;
 }

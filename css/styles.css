@@ -213,7 +213,7 @@ address {
   justify-content: center;
   gap: 8px;
   align-items: center;
-  margin: 32px 0;
+  padding: 32px 0;
 }
 .ourteam {
   align-items: center;
@@ -289,6 +289,12 @@ address {
 }
 /* END portfolio section*/
 
+
+/*Footer*/
+.footer {
+  background: var(--color-title-backgraund);
+  padding: 100px 0;
+}
 .footer-backgraund {
   background-color: var(--color-title-backgraund);
 }
@@ -299,8 +305,11 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
+  
 }
 .logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
   color: var(--color-brand);
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -313,7 +322,4 @@ address {
   color: var(--color-backgraund-light);
 }
 
-.footer {
-  background: var(--color-title-backgraund);
-  padding: 100px 0;
-}
+

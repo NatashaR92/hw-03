@@ -152,8 +152,6 @@ address {
 
 .hero-button {
 
-  align-items: center;
-  display: block;
   min-width: 169px;
   height: 56px;
   border-radius: 4px;

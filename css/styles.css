@@ -131,6 +131,9 @@ address {
   text-decoration: underline;
 }
 /*hero section*/
+.hero-section {
+  padding: 188px 0; 
+}
 .hero-inner {
   text-align: center;
   padding: 188px 0;
@@ -146,12 +149,11 @@ address {
   text-align: center;
   margin: 0 auto;
   margin-bottom: 48px;
- 
   max-width: 496px;
 }
 
 .hero-button {
-
+  display: block;
   min-width: 169px;
   height: 56px;
   border-radius: 4px;
@@ -163,6 +165,8 @@ address {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-button:hover,
 .hero-button:focus {

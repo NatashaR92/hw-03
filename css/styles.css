@@ -132,8 +132,16 @@ address {
 }
 /*hero section*/
 .hero-inner {
+  text-align: center;
   padding: 188px 0;
+ 
   background-color: var(--color-title-backgraund);
+}
+.hero-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 .hero-title {
   color: var(--color-text-light);
@@ -142,8 +150,9 @@ address {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-bottom: 48px;
   margin: 0 auto;
+  margin-bottom: 48px;
+ 
   max-width: 496px;
 }
 
@@ -162,10 +171,8 @@ address {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-
 .hero-button:hover,
 .hero-button:focus {
-
   color: var(--color-text-light);
   background-color: var(--color-press-state);
 }

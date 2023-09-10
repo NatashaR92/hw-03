@@ -63,6 +63,9 @@ address {
   border-bottom: 1px solid var(--color-border);
 }
 /*header*/
+.header {
+  border-bottom: 1px solid var(--color-border)
+}
 .header-inner {
   display: flex;
   justify-content: space-between;

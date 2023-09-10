@@ -137,12 +137,6 @@ address {
  
   background-color: var(--color-title-backgraund);
 }
-.hero-action {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
 .hero-title {
   color: var(--color-text-light);
   font-size: 56px;
@@ -157,6 +151,7 @@ address {
 }
 
 .hero-button {
+
   align-items: center;
   display: block;
   min-width: 169px;

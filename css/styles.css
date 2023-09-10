@@ -295,8 +295,9 @@ address {
   background: var(--color-title-backgraund);
   padding: 100px 0;
 }
-.footer-backgraund {
-  background-color: var(--color-title-backgraund);
+
+.container {
+  border-bottom: none;
 }
 .footer-text {
   color: var(--color-backgraund-light);

@@ -59,7 +59,7 @@ address {
 .container {
   max-width: 1158px;
   margin: 0 auto;
-  padding: 0 32px;
+  padding: 0 15px;
   border-bottom: 1px solid var(--color-border);
 }
 /*header*/
@@ -89,6 +89,7 @@ address {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .logo .accent {
   color: var(--color-title-backgraund);
@@ -107,6 +108,7 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+ 
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -127,10 +129,9 @@ address {
 }
 /*hero section*/
 .hero-inner {
-  padding: 188px 0;
+  padding: 188px 0 188px;
   background-color: var(--color-title-backgraund);
 }
-
 .hero-title {
   color: var(--color-text-light);
   font-size: 56px;
@@ -158,8 +159,10 @@ address {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
+
 .hero-button:hover,
 .hero-button:focus {
+
   color: var(--color-text-light);
   background-color: var(--color-press-state);
 }
@@ -244,6 +247,7 @@ address {
   gap: 24px;
   flex-wrap: wrap;
   row-gap: 48px;
+  
 }
 .portfolio-item {
   flex-basis: calc((100% - 48px) / 3);

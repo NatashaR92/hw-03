@@ -1,0 +1,178 @@
+:root {
+  --color-brand: #4d5ae5;
+  --color-press-state: #404bbf;
+  --color-title-backgraund: #2e2f42;
+  --color-text-primary: #434455;
+  --color-text-light: #fff;
+  --color-backgraund-light: #f4f4fd;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background: var(--color-text-light);
+  color: var(--color-text-primary);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+address {
+  font-style: normal;
+}
+/*header*/
+.logo {
+  color: var(--color-brand);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo .accent {
+  color: var(--color-title-backgraund);
+}
+.nav-link {
+  color: var(--color-title-backgraund);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--color-press-state);
+  text-decoration: underline;
+}
+
+.contacts-link {
+  color: var(--color-text-primary);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--color-press-state);
+  text-decoration: underline;
+}
+/*hero section*/
+.hero-section {
+  background-color: var(--color-title-backgraund);
+}
+.hero-title {
+  color: var(--color-text-light);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.hero-button {
+  color: var(--color-text-light);
+  background-color: var(--color-brand);
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--color-text-light);
+  background-color: var(--color-press-state);
+}
+
+/*advantages section*/
+.advantage-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-title-backgraund);
+}
+.advantage-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text-primary);
+}
+/*END advantages section*/
+
+/*our team section*/
+.team-list {
+  background-color: var(--color-text-light);
+}
+.ourteam {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--color-title-backgraund);
+}
+.ourteam-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-title-backgraund);
+}
+.ourteam-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/*END our team section*/
+
+/*portfolio section*/
+.backgraund-team {
+  background-color: var(--color-backgraund-light);
+}
+.portfolio {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--color-title-backgraund);
+}
+.portfolio-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-title-backgraund);
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* END portfolio section*/
+
+.footer-backgraund {
+  background-color: var(--color-title-backgraund);
+}
+.footer-text {
+  color: var(--color-backgraund-light);
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.logo-footer {
+  color: var(--color-brand);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-footer .accent {
+  color: var(--color-backgraund-light);
+}
